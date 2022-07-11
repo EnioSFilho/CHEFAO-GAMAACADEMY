@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&family=Questrial&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+div.containerUtilSecond {
+
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-color: #2a2b2c;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    color: white;
+    font-family: 'Roboto', sans-serif;   
+   
+}
+
+#setascrolla{
+    margin-left: 48%;
+    margin-top: -70px;
+}
+#faixa{
+    max-width: 100vw;
+    margin-top: -55px;
+}
+
+div.tituloUtilSecond{
+    color: white;
+   font-size: 48px;
+   padding-top: 10%;
+   margin-left: 7%;
+   font-weight: 700;
+   font-family: 'Roboto', sans-serif;
+}
+div.dropUtilSecond{
+    color: black;
+    width: 88vw;
+   margin-left: 7%;
+   font-family: 'Roboto', sans-serif;
+}
+div.adjustUtilSecond{
+    padding: 0.1%;
+}

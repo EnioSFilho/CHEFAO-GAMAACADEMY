@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.3",
+    "cdbreact": "^1.5.2",
+    "react-bootstrap": "^2.4.0",
+    "react-bootstrap-icons": "^1.8.4",
+    "react-router-hash-link": "^2.4.3"
+  },
+  "scripts": {
+    "postinstall": "if [ $CLIENT_ENV ]; then npm run postinstall-client; elif [ $SERVER_ENV ]; then npm run postinstall-server; else echo no environment detected, please set CLIENT_ENV or SERVER_ENV; fi",
+    "postinstall-client": "cd frontend && npm install",
+    "postinstall-server": "cd backend && npm install"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.14"
+  }
+}

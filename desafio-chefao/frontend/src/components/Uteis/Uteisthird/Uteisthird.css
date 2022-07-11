@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&family=Questrial&family=Roboto:wght@300&family=Ubuntu&display=swap');
+.containerUteisThird{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    background-color: #f7f7f8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.milhasUteisThird{
+    font-size: 48px;
+    margin-left: 7%;
+    padding-top: 5%;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.scrollUteisThird{
+    margin-top: 2%;
+    width: 88vw;
+    margin-left: 7%;
+        
+}
+.adjustUteisThird{
+    padding: 0.1%;
+}
+.sombra{
+    box-shadow: 0px 1px 2px rgba(97, 97, 97, 0.2), 0px 2px 4px rgba(97, 97, 97, 0.2);
+        
+}

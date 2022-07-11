@@ -1,0 +1,107 @@
+.bannerConecte {
+    background-image: url("../../assets/Images/banner-conecte-se.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    max-width: 100%;
+    height: 95vh;
+}
+
+.containerGeralConecte {
+    width: 100vw;
+    max-width: 100%;
+}
+
+.containerConecte {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    width: 100%;
+}
+
+.textoConecte {
+    margin-top: 4%;
+    text-align: start;
+    max-width: 70%;
+    color: white;
+}
+
+.textoConecte h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.textoConecte h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.containerimg {
+    display: flex;
+    justify-content: center;
+    padding: 5% 0 10% 0;
+    flex-wrap: wrap;
+}
+
+.linkRegiao {
+    margin-right: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#efeito {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#efeito:hover {
+    opacity: 50%;
+    transition: 0.8s;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .bannerConecte {
+        height: 110vh;
+    }
+
+    .containerConecte {
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+
+    .containerimg {
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-width: 100%;
+    }
+
+    .linkRegiao {
+        padding-bottom: 5%;
+    }
+
+    #efeito {
+        margin-top: 5%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .textoConecte h1 {
+        font-size: 36px;
+    }
+
+    .textoConecte h2 {
+        font-size: 24px;
+    }
+
+    #efeito {
+        height: 25vh;
+    }
+}

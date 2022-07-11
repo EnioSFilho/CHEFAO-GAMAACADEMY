@@ -1,0 +1,196 @@
+.main {
+    margin: 0;
+    padding-bottom: 45%;
+    display: flex;
+    padding-left: 20%;
+    flex-wrap: wrap;
+    height: 50rem;
+    background-color: #2a2b2c;
+}
+
+.contato {
+    width: 50vh;
+    margin: 2% 0 5% 0;
+    margin-right: 0;
+}
+
+.contato h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5%;
+    color: #FFFFFF;
+}
+
+.contato h4 {
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 15%;
+    font-size: 36px;
+}
+
+.contato p {
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.25em;
+    color: #FFFFFF;
+}
+
+.contato-form {
+    font-size: 1.25em;
+    width: 30vw;
+    height: 80%;
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-top: 8%;
+}
+
+.nome-email {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+span {
+    color: #a7a7a7;
+}
+
+.titulo-input {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: 'normal';
+    font-weight: '500';
+    font-size: '20px';
+}
+
+.form-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-btn Button {
+    transition: all 0.3s;
+}
+
+.form-btn Button:hover {
+    background-color: #F6980B;
+    transition: 0.5s;
+    border: #F6980B;
+}
+
+.notificacao {
+    padding: 5px;
+    margin-right: 18% !important;
+    margin-top: 3%;
+    border-radius: 10px !important;
+    background-color: #FFFFFF !important;
+}
+
+.conteudo-toast {
+    border: 1px solid #C4C4C4 !important;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.toast-header {
+    display: flex;
+    justify-content: end;
+    border: none !important;
+}
+
+.btn-close {
+    border: 2px solid #495057 !important;
+    border-radius: 20px !important;
+}
+
+.mensagem-notificacao {
+    display: flex;
+    padding: 0 0 20px 50px !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #495057;
+}
+
+@media only screen and (max-width: 480px) {
+    .main {
+        height: 95rem;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .contato {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contato-form {
+        height: 40rem;
+        width: 90rem;
+        padding-bottom: 20% !important;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+}
+
+@media only screen and (max-width: 900px) and (min-width: 481px) {
+    .main {
+        height: 90rem !important;
+    }
+
+    .contato-form {
+        height: 40rem;
+        width: 90%;
+    }
+
+    .form-control input {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 481px) {
+    .main {
+        height: 90rem !important;
+    }
+
+    .contato-form {
+        height: 40rem;
+        width: 70%;
+    }
+
+    .form-control input {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 1700px) and (min-width: 1200px) {
+    
+    .main {
+        padding-bottom: 30px;
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        height: 50rem;
+    }
+
+    .contato {
+        width: 45vw;
+        padding-left: 10%;
+    }
+
+    .contato-form {
+        width: 40vw;
+        padding-bottom: 20% !important;
+    }
+
+    .comentario-cidades {
+        height: 70vh;
+    }
+    
+    .notificacao {
+        margin-right: 20% !important;
+        margin-top: 0;
+        position: absolute;
+        top: 4820px;
+    }
+}

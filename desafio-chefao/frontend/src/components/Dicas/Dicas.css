@@ -1,0 +1,151 @@
+.containerDicas {
+    width: 100vw;
+    height: 95vh;
+    max-width: 100%;
+    background-color: #fff;
+    padding: 2% 0 6% 0;
+    justify-content: center;
+    background-image: url("../../assets/Images/banner-dicas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.containerTextoDicas {
+    padding: 2% 5% 1% 6%;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    padding-left: 20%;
+}
+
+.containerTextoDicas h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #1A1A1B;
+    font-weight: 700;
+}
+
+.containerTextoDicas h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #1A1A1B;
+    margin: 0;
+    font-size: 36px;
+}
+
+.conteudoModuloUm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.culturais {
+    margin-right: 1%;
+}
+
+.uteis {
+    margin-right: 1%;
+}
+
+#efeitoDicase {
+    transition: all 0.3s;
+}
+
+#efeitoDicas:hover {
+    opacity: 80%;
+    transition: 0.8s;
+}
+
+.gradiente {
+    background: url(photo-1533035353720-f1c6a75cd8ab.jpg), linear-gradient(111.17deg, rgba(255, 255, 255, 0.02) 0.84%, rgba(255, 255, 255, 0.005) 63.92%);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 3340px;
+}
+
+.seta {
+    display: flex;
+    justify-content: center;
+    padding-top: -10px;
+}
+
+.chevron {
+    position: absolute;
+    top: -10px;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .containerDicas {
+        height: 110vh;
+    }
+
+    .containerTextoDicas {
+        padding-left: 10%;
+    }
+
+    .conteudoModuloUm {
+        margin-bottom: 0.5%;
+    }
+
+    .culturais {
+        margin-right: 0.5%;
+    }
+
+    .uteis {
+        margin-right: 0.5%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+
+    #efeitoDicas {
+        max-width: 70%;
+        justify-content: center;
+        margin-left: 15%;
+        margin-top: 5%;
+
+    }
+}
+@media screen and (max-width: 1108px){
+
+    .containerModuloUm {
+        justify-content: center;
+    }
+
+    #efeitoDicas {
+        max-width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .containerDicas {
+        padding-top: 0;
+    }
+
+    .containerTextoDicas h1 {
+        font-size: 36px;
+        margin-left: 12%;
+    }
+
+    .containerTextoDicas h2 {
+        font-size: 24px;
+        margin-left: 12%;
+    }
+
+    #efeitoDicas {
+        margin-top: 2px;
+        max-width: 50%;
+        margin-left: 21%;
+    }
+}
